@@ -9,9 +9,9 @@ n = int(input('Введите количество школьников межд
 k = int(input('Введите изначальное количество яблок в корзине: '))
 value_apples_per_child = int(k / n)
 value_apples_in_basket = int(k % n)
-print(f'Каждый школьник получит по {(value_apples_per_child)} яблок.')
+print(f'Каждый школьник получит по {value_apples_per_child} яблок.')
 if value_apples_in_basket != 0:
-    print(f'И в корзине осталось {(value_apples_in_basket)} яблок.')
+    print(f'И в корзине осталось {value_apples_in_basket} яблок.')
 else :
     print ('В корзине не осталось яблок.')
 
