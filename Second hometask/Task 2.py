@@ -9,7 +9,10 @@
 num_students_1 = int(input('Введите количество учащихся в первом классе: '))
 num_students_2 = int(input('Введите количество учащихся во втором классе: '))
 num_students_3 = int(input('Введите количество учащихся в третьем классе: '))
-num_of_desks = (num_students_1 + num_students_2 + num_students_3) // 2
-if num_of_desks % 2 != 0:
+all_students = num_students_1 + num_students_2 + num_students_3
+num_of_desks = all_students // 2
+if all_students % 2 != 0:
     num_of_desks += 1
-print(num_of_desks)
+    print(f'Для {all_students} учащихся необходимое количество парт {num_of_desks}, что б один не стоял :-).')
+else:
+    print(f'Для {all_students} учащихся необходимое количество парт {num_of_desks}.')
