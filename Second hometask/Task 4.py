@@ -5,8 +5,10 @@
  в формате чч:мм:сс. Например: 9375 -> 2:36:15
  '''
 number_seconds = int(input('Введите количество секунд, которые необходимо преобразовать: '))
-hours = number_seconds//3600
-minutes = number_seconds%3600//60
-seconds = number_seconds%3600%60
-print(f'{hours}:{minutes}:{seconds}.')
+hours = str(number_seconds//3600)
+minutes = str(number_seconds%3600//60)
+seconds = str(number_seconds%3600%60)
+print(f'{hours.zfill(2)}:{minutes.zfill(2)}:{seconds.zfill(2)}.')
 
+#Нашел метод, который добавит "0" если число однозначное.
+#Пришлось преобразовывать результаты вычислений в строки, но на выходе приятнее)
