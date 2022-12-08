@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="05291056-e143-4f1f-b22a-5b174a1c03af" name="Changes" comment="Исправлено" />
+    <list default="true" id="05291056-e143-4f1f-b22a-5b174a1c03af" name="Changes" comment="Теперь работает так, как я хотел)" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -137,7 +137,21 @@
       <option name="project" value="LOCAL" />
       <updated>1670526873505</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Теперь работает так, как я хотел)">
+      <created>1670527703993</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1670527703993</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Теперь работает так, как я хотел)">
+      <created>1670527755515</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1670527755515</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -157,6 +171,7 @@
     <MESSAGE value="Готово" />
     <MESSAGE value="Работает корректно" />
     <MESSAGE value="Исправлено" />
-    <option name="LAST_COMMIT_MESSAGE" value="Исправлено" />
+    <MESSAGE value="Теперь работает так, как я хотел)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Теперь работает так, как я хотел)" />
   </component>
 </project>
