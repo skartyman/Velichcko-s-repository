@@ -5,8 +5,7 @@
  '''
 
 number = int(input('Введите целое, положительное, трёхзначное число: '))
-first_num = number % 10
-second_number = number // 10 % 10
-third_number = number // 10// 10
-print(f'Ваше число наоборот выглядит так: {first_num}{second_number}{third_number}')
+revers_num = (number%10)*100+(number//10%10)*10+(number//100%10)
+print('Ваше число наоборот выглядит так:',revers_num)
+
 

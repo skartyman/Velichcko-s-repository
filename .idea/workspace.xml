@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="05291056-e143-4f1f-b22a-5b174a1c03af" name="Changes" comment="Теперь работает так, как я хотел)" />
+    <list default="true" id="05291056-e143-4f1f-b22a-5b174a1c03af" name="Changes" comment="Теперь работает так, как я хотел)">
+      <change beforePath="$PROJECT_DIR$/Second hometask/Task 3.py" beforeDir="false" afterPath="$PROJECT_DIR$/Second hometask/Task 3.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -151,7 +153,21 @@
       <option name="project" value="LOCAL" />
       <updated>1670527755515</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Теперь работает так, как я хотел)">
+      <created>1670527805733</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1670527805733</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Теперь работает так, как я хотел)">
+      <created>1670528003951</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1670528003951</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
