@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="05291056-e143-4f1f-b22a-5b174a1c03af" name="Changes" comment="Подправил">
-      <change afterPath="$PROJECT_DIR$/ Fourth hometask/Task 1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/First hometask/Hello.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/First hometask/antigravity.py" afterDir="false" />
+    <list default="true" id="05291056-e143-4f1f-b22a-5b174a1c03af" name="Changes" comment="Готово">
+      <change afterPath="$PROJECT_DIR$/ Fourth hometask/Task 2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/First hometask/Task 1.py" beforeDir="false" afterPath="$PROJECT_DIR$/First hometask/Task 1.py" afterDir="false" />
     </list>
@@ -25,9 +23,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/First hometask/Hello.py" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/First hometask/Task 1.py" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/First hometask/antigravity.py" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -56,7 +52,7 @@
       <recent name="C:\Users\Сергей\PycharmProjects\Velichcko-s-repository\Third hometask" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Task 1 (1)">
+  <component name="RunManager" selected="Python.Task 2">
     <configuration name="Hello" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Velichcko-s-repository" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -120,6 +116,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Task 2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Velichcko-s-repository" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ Fourth hometask" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ Fourth hometask/Task 2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="antigravity" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Velichcko-s-repository" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -143,6 +160,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Task 2" />
         <item itemvalue="Python.Task 1 (1)" />
         <item itemvalue="Python.Task 1" />
         <item itemvalue="Python.Hello" />
@@ -299,7 +317,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670531724411</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Готово">
+      <created>1670771192549</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1670771192549</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -316,12 +341,12 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Готово, но..." />
     <MESSAGE value="Готово!" />
-    <MESSAGE value="Готово" />
     <MESSAGE value="Работает корректно" />
     <MESSAGE value="Теперь работает так, как я хотел)" />
     <MESSAGE value="Исправлено" />
     <MESSAGE value="Откат после ошибки" />
     <MESSAGE value="Подправил" />
-    <option name="LAST_COMMIT_MESSAGE" value="Подправил" />
+    <MESSAGE value="Готово" />
+    <option name="LAST_COMMIT_MESSAGE" value="Готово" />
   </component>
 </project>
