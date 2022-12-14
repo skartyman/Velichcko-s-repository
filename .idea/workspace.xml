@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="05291056-e143-4f1f-b22a-5b174a1c03af" name="Changes" comment="Готово">
-      <change beforePath="$PROJECT_DIR$/ Fourth hometask/Task 2.py" beforeDir="false" afterPath="$PROJECT_DIR$/ Fourth hometask/Task 2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -330,7 +329,21 @@
       <option name="project" value="LOCAL" />
       <updated>1670940141072</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Готово">
+      <created>1671038108507</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1671038108507</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Готово">
+      <created>1671038150374</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1671038150374</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
