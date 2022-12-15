@@ -381,7 +381,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671041852931</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="Название переменной">
+      <created>1671119036296</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1671119036296</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -404,7 +411,8 @@
     <MESSAGE value="Откат после ошибки" />
     <MESSAGE value="Подправил" />
     <MESSAGE value="Готово" />
-    <option name="LAST_COMMIT_MESSAGE" value="Готово" />
+    <MESSAGE value="Название переменной" />
+    <option name="LAST_COMMIT_MESSAGE" value="Название переменной" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

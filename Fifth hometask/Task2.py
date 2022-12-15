@@ -5,10 +5,10 @@
 Задание выполнить с помощью цикла for.
 '''
 from random import randint
-list_1 = [randint(1,300) for i in range(200)] # генерация списка с рандомными двумя сотнями значений от 1 до 300
-list_over_100 = []
-for n in list_1:
+my_list = [randint(1,300) for i in range(200)] # генерация списка с рандомными двумя сотнями значений от 1 до 300
+my_results = []
+for n in my_list:
         if n > 100:
-            list_over_100.append(n)
-print(list_over_100)
+            my_results.append(n)
+print(my_results)
 
