@@ -6,7 +6,9 @@
 '''
 
 from random import randint
-list_1 = [randint(1,300) for i in range(200)] # генерация списка с рандомными двумясотнями значений от 1 до 300
-for n in list_1:
-        if n > 100:
-            print(n,end=' ')
+my_list = [randint(3,112) for i in range(randint(1,5))]
+if len(my_list)<2:
+    my_list.append(0)
+elif len(my_list)>=2:
+    my_list.append(my_list[-1]+my_list[-2])
+print(my_list)
