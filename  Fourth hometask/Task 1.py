@@ -1,9 +1,12 @@
-n=int(input('Введите высоту фигуры: '))
-for h in range(n):
-    for w in range(h+1,n):
-        print(' ', end=' ')
-    for w in range(h):
-        print('*', end=' ')
-    for w in range(h+1):
-        print('*',end=' ')
-    print()
+'''
+У вас есть строка my_string = '0123456789'.
+Сгенерировать целые числа (тип int) от 0 до 99 и распечатать их.
+Задание нужно выполнить ТОЛЬКО через цикл в цикле(См. пример выше) и приведение типов.
+Генерирование через range или другие "фишки" я засчитывать не буду ))
+'''
+
+my_string = '0123456789'
+for i in my_string :
+    for j in my_string :
+        a = i + j
+        print(a, end=" ")
