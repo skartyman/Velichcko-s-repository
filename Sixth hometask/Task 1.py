@@ -9,5 +9,14 @@ my_result = []
 for i in my_list_1[::2]:
         my_result.append(i)
 for n in my_list_2[1::2]:
-        my_result.append(n)
+       my_result.append(n)
 print(my_result)
+
+#или так
+
+my_result1 = []
+for i in my_list_1[::2]:
+        my_result1.append(i)
+del my_list_2[::2]
+my_result1.extend(my_list_2)
+print(my_result1)
