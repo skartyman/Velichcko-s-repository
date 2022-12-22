@@ -10,7 +10,3 @@ for i in my_list:
     new_list.append(i)
 new_list.append(new_list.pop(0))
 print(new_list)
-print('Проверка на уникальность списка new_list')
-my_list[1] = my_list[3]
-print(my_list)
-print(new_list)
