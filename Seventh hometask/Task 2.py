@@ -1,7 +1,6 @@
 '''
 Дан список словарей persons в формате [{"name": "John", "age": 15}, ... ,{"name": "Jack", "age": 45}]
     Создать список и поместить туда имя самого молодого человека.
-    Если возраст совпадает - поместить все имена самых молодых.
 '''
 
 persons = [
@@ -13,7 +12,3 @@ persons = [
     {"name": "Cortney", "age": 45},
     {"name": "Peter", "age": 47}
     ]
-
-min_age = min([i['age'] for i in persons])
-min_age_name_list = [i['name'] for i in persons if i['age'] == min_age]
-print(min_age_name_list)
