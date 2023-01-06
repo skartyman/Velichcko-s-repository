@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="05291056-e143-4f1f-b22a-5b174a1c03af" name="Changes" comment="Готово">
-      <change afterPath="$PROJECT_DIR$/Eighth hometask/Functions.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Eighth hometask/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Eighth hometask/tasks.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eighth hometask/Functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/Eighth hometask/Functions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eighth hometask/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Eighth hometask/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -194,13 +193,6 @@
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
-    <task id="LOCAL-00001" summary="Готово, но...">
-      <created>1670439027629</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1670439027629</updated>
-    </task>
     <task id="LOCAL-00002" summary="Готово">
       <created>1670439396324</created>
       <option name="number" value="00002" />
@@ -544,7 +536,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673032170870</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="Готово">
+      <created>1673037364779</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1673037364779</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
