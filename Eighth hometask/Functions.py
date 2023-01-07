@@ -12,7 +12,12 @@ from string import ascii_lowercase
 перевернутую строку. "qwe" на "ewq".
 Если на четном - оставить без изменения.
 '''
-
+my_list = ['лицо','картон','песок','нога','мотор','аренда','акваланг',]
+my_list1 = ['лицо','картон','песок','нога','мотор','аренда','акваланг', 78, 68, 98, 987987]
+my_str = "AspdnieoJmoedj, uidha, efsdfihskefnneo  jdkismkso 1 3 kdbn"
+my_str1 = 'ndoadnalskd,d qdAiqd, qedoiqhwdkqhqwdhiw, hnjiknsdik'
+names = ['Brown','Martinez', 'Jenkins', 'Paul','King','Walker','Marshall','Lewis','Henry','Cole']
+domains = ['ru','ua','org','com','net','doc','io','su','ar','eu','fr','de','us','uk']
 
 def turner(my_list):
     '''Функция возвращает новый список в котором элементы с нечетным индексом обернуты.'''
@@ -147,7 +152,7 @@ def uniq_symbols_for_both_str(my_str, my_str1):
 
 def mail_generator(names, domains):
     '''Функция генерирует e-mail адрес в формате:
-фамилия.число_от_100_до_999@строка_букв_длинной_от_5_до_7_символов.домен.
+фамилия.число_от_100_до_999@строка_букв_длинной_от_5_до_7_символов.домен
 фамилию и домен брать случайным образом из заданных списков переданных в функцию в виде параметров.
 Строку и число генерирует случайным образом.
 '''
@@ -157,5 +162,5 @@ def mail_generator(names, domains):
     # random_str = ''.join(random.choice(ascii_lowercase) for i in range(random.randint(3, 8)))
     # # e_mail = f'{name}.{number}@{random_str}.{domain}'
     e_mail = random.choice(names) + '.' + str(random.randint(100, 1000)) + '@' + ''.join \
-        (random.choice(ascii_lowercase) for i in range(random.randint(3, 8))) + random.choice(domains)
+        (random.choice(ascii_lowercase) for i in range(random.randint(3, 7))) +'.'+ random.choice(domains)
     print(e_mail)

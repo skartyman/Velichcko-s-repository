@@ -1,24 +1,24 @@
 from Functions import *
-my_list = ['лицо','картон','песок','нога','мотор','аренда','акваланг',]
-my_list1 = ['лицо','картон','песок','нога','мотор','аренда','акваланг', 78, 68, 98, 987987]
-my_str = "AspdnieoJmoedj, uidha, efsdfihskefnneo  jdkismkso 1 3 kdbn"
-my_str1 = 'ndoadnalskd,d qdAiqd, qedoiqhwdkqhqwdhiw, hnjiknsdik'
-names = ['Brown','Martinez', 'Jenkins', 'Paul','King','Walker','Marshall','Lewis','Henry','Cole']
-domains = ['ru','ua','org','com','net','doc','io','su','ar','eu','fr','de','us','uk']
+
+print('Функция возвращает новый список в котором элементы с нечетным индексом обернуты.')
 turner(my_list)
-print()
+print('Функция возвращает новый список, слова в котором начинаются на "a".')
 a_list(my_list)
-print()
+print('Функция возвращает новый список со словами в которых встречается буква "а".')
 a_random_list(my_list)
-print()
+print('Функция возвращает новый список только с элементами типа "str".')
 str_list(my_list1)
-print()
+print('Функция возвращает новый список в котором содержаться уникальные символы из my_str.')
 uniq_symbols(my_str)
-print()
+print('Функция возвращает список содержащий символы, которые есть в обеих строках хотя бы раз.')
 symbols_in_both_str(my_str, my_str1)
-print()
+print('Функция возвращает список в который добавляет только символы, которые есть в обеих строках,\n'
+      ' только по одному разу.')
 uniq_symbols_for_both_str(my_str,my_str1)
-print()
+print('Функция генерирует e-mail адрес в формате:\n'
+      'фамилия.число_от_100_до_999@строка_букв_длинной_от_5_до_7_символов.домен.\n'
+      'фамилию и домен брать случайным образом из заданных списков переданных в функцию в виде параметров.\n'
+      'Строку и число генерирует случайным образом.')
 mail_generator(names,domains)
 
 

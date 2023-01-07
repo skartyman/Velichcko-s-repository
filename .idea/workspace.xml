@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="05291056-e143-4f1f-b22a-5b174a1c03af" name="Changes" comment="Готово">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Eighth hometask/Functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/Eighth hometask/Functions.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Eighth hometask/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Eighth hometask/main.py" afterDir="false" />
     </list>
@@ -199,13 +198,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1670440361760</updated>
-    </task>
-    <task id="LOCAL-00003" summary="Готово">
-      <created>1670442113859</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1670442113859</updated>
     </task>
     <task id="LOCAL-00004" summary="Готово">
       <created>1670443963986</created>
@@ -543,7 +535,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673038628905</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="Готово">
+      <created>1673108481395</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1673108481395</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
