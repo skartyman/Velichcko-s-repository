@@ -29,6 +29,8 @@ def censor(file, list) :
         return file.write(f)
 
 def gen_dict_words_num(file):
+    """Функция возвращает словарь ключами которого являютсся слова,
+     а значения количество раз, которое слово упоминается в тексте"""
     with open(file, 'r+') as file :
         f = file.read()
         dict_words_num = {}
@@ -42,14 +44,17 @@ def gen_dict_words_num(file):
 dictionary = gen_dict_words_num(file)
 
 def stat_json(dictionary) :
+    """Функция создает файл статистики в JSON формате, в который записывает словарь полученный из gen_dict_words_num """
     with open('stats.json', 'wt') as file :
         return json.dump(dictionary, file)
 
 
 def stat_csv(dictionary) :
+    """Функция создает файл статистики в СSV формате, в который записывает словарь полученный из gen_dict_words_num """
     with open('stats.csv', 'wt') as file :
         writer = csv.DictWriter(file, fieldnames=dictionary.keys(), delimiter=';')
         writer.writeheader()
         writer.writerow(dictionary)
+
 
 
