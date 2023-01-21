@@ -57,3 +57,4 @@ def stat_csv(dictionary) :
         writer.writerow(dictionary)
 
 
+
