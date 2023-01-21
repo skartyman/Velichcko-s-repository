@@ -1,0 +1,1 @@
+{"firstname": "Taras", "lastname": "Bulba", "age": 237, "email": "taras_childfree@ukraine.ua", "items": ["sword", "horse", "sigar", "sombrero"]}

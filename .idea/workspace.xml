@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="05291056-e143-4f1f-b22a-5b174a1c03af" name="Changes" comment="Готово">
-      <change afterPath="$PROJECT_DIR$/Nineth hometask/Function Censor.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Nineth hometask/asa.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/files/Love.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Nineth hometask/serialize.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tenth hometask/Loves.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tenth hometask/Program_Censor.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tenth hometask/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/Love.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,11 +44,12 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Сергей/PycharmProjects/Velichcko-s-repository/Third hometask&quot;
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Сергей/PycharmProjects/Velichcko-s-repository/tenth hometask&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Сергей\PycharmProjects\Velichcko-s-repository\tenth hometask" />
       <recent name="C:\Users\Сергей\PycharmProjects\Velichcko-s-repository\Third hometask" />
       <recent name="C:\Users\Сергей\Desktop\Вторая домашка" />
     </key>
@@ -56,7 +59,7 @@
       <recent name="C:\Users\Сергей\PycharmProjects\Velichcko-s-repository\Third hometask" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Function Censor">
+  <component name="RunManager" selected="Python.main (1)">
     <configuration name="Function Censor" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Velichcko-s-repository" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -78,7 +81,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Functions" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Program_Censor" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Velichcko-s-repository" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -86,11 +89,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Eighth hometask" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tenth hometask" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Eighth hometask/Functions.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\Сергей\PycharmProjects\Velichcko-s-repository\tenth hometask\Program_Censor.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -99,7 +102,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Task 1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Task 1 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Velichcko-s-repository" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -107,11 +110,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Seventh hometask" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tenth hometask" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Seventh hometask/Task 1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tenth hometask/Task 1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -120,7 +123,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Task 1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="asa" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Velichcko-s-repository" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -128,11 +131,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Seventh hometask" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Nineth hometask" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\Сергей\PycharmProjects\Velichcko-s-repository\Seventh hometask\Task 1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Nineth hometask/asa.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -141,7 +144,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Task 2 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Velichcko-s-repository" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -149,32 +152,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Seventh hometask" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tenth hometask" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Seventh hometask/Task 2.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Velichcko-s-repository" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Eighth hometask" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Eighth hometask/main.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tenth hometask/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -185,11 +167,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.main (1)" />
+        <item itemvalue="Python.Program_Censor" />
+        <item itemvalue="Python.asa" />
+        <item itemvalue="Python.Task 1 (1)" />
         <item itemvalue="Python.Function Censor" />
-        <item itemvalue="Python.main" />
-        <item itemvalue="Python.Functions" />
-        <item itemvalue="Python.Task 2 (1)" />
-        <item itemvalue="Python.Task 1" />
       </list>
     </recent_temporary>
   </component>
@@ -201,20 +183,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1670440361760</updated>
-    </task>
-    <task id="LOCAL-00005" summary="Готово!">
-      <created>1670446372648</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1670446372648</updated>
-    </task>
-    <task id="LOCAL-00006" summary="Готово">
-      <created>1670448329148</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1670448329148</updated>
     </task>
     <task id="LOCAL-00007" summary="Готово">
       <created>1670449054871</created>
@@ -545,7 +513,21 @@
       <option name="project" value="LOCAL" />
       <updated>1673109035564</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="Готово">
+      <created>1674154812236</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1674154812237</updated>
+    </task>
+    <task id="LOCAL-00055" summary="Готово">
+      <created>1674154832564</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1674154832564</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
