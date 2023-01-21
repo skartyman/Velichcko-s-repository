@@ -10,8 +10,6 @@
 '''
 import json
 import csv
-
-list = ['love', 'short', 'stories', 'Love', 'Stories', 'Short', 'still', 'the']
 file = 'Loves.txt'
 
 
