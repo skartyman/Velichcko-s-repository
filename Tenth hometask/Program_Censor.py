@@ -10,6 +10,8 @@
 '''
 import json
 import csv
+
+list = ['love', 'short', 'stories', 'Love', 'Stories', 'Short', 'still', 'the']
 file = 'Loves.txt'
 
 
@@ -29,8 +31,12 @@ def censor(file, list) :
 def gen_dict_words_num(file):
     """Функция возвращает словарь ключами которого являютсся слова,
      а значения количество раз, которое слово упоминается в тексте"""
-    with open(file, 'r+') as file :
+    with open(file, 'r') as file :
         f = file.read()
+        symbols = '''!()-[]{};?@#$%:'"\,./^&;*_'''
+        for i in f:
+            for i in symbols:
+                f = f.replace(i,'')
         dict_words_num = {}
         for word in f.split() :
             if word not in dict_words_num :
@@ -39,20 +45,22 @@ def gen_dict_words_num(file):
                 dict_words_num[word] += 1
         dictionary = dict_words_num
     return dictionary
-dictionary = gen_dict_words_num(file)
 
-def stat_json(dictionary) :
+def stat_json(file) :
     """Функция создает файл статистики в JSON формате, в который записывает словарь полученный из gen_dict_words_num """
-    with open('stats.json', 'wt') as file :
+    dictionary = gen_dict_words_num(file)
+    with open('stats.json', 'at') as file :
         return json.dump(dictionary, file)
 
 
-def stat_csv(dictionary) :
+def stat_csv(file) :
     """Функция создает файл статистики в СSV формате, в который записывает словарь полученный из gen_dict_words_num """
-    with open('stats.csv', 'wt') as file :
+    dictionary = gen_dict_words_num(file)
+    with open('stats.csv', 'at') as file :
         writer = csv.DictWriter(file, fieldnames=dictionary.keys(), delimiter=';')
         writer.writeheader()
         writer.writerow(dictionary)
-
+        return 1
+    return -1
 
 
