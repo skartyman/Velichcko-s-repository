@@ -1,0 +1,1 @@
+{'firstname': 'Ivasik', 'lastname': 'Telesik', 'age': 13, 'email': 'ivasik-telesik1732@izkurnanog.ua', 'skills': ['ходить', 'говорить', 'кодить'], 'people_lang': ['Україньська', 'Англійська'], 'coding_lang': ['Python', 'C++', 'lisp']}
