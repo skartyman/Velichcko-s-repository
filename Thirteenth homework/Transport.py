@@ -88,13 +88,13 @@ class Bicycle(Transport):
         """
         Установить мощность двигателя велосипеда (не реализовано для велосипеда)
         """
-        raise NotImplementedError("Велосипед не имеет двигателя")
+        print("Велосипед не имеет двигателя")
 
     def get_engine_power(self):
         """
         Получить мощность двигателя велосипеда (не реализовано для велосипеда)
         """
-        raise NotImplementedError("Велосипед не имеет двигателя")
+        print("Велосипед не имеет двигателя")
 
 class Car(Transport):
     """
@@ -158,7 +158,7 @@ class Truck(Car):
         Аргументы: - weight (float): вес груза в тоннах
         """
         if weight + self.current_cargo_weight > self.max_cargo_weight:
-            raise ValueError(f"Невозможно загрузить груз весом {weight} тонн. Максимальный вес груза грузовика: {self.max_cargo_weight} тонн.")
+            print(f"Невозможно загрузить груз весом {weight} тонн. Максимальный вес груза грузовика: {self.max_cargo_weight} тонн.")
         else:
             self.current_cargo_weight += weight
 
